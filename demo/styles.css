@@ -1,0 +1,69 @@
+.body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #ffcbdb, #d8b4fe, #c3a5fc);
+    padding: 16px;
+}
+
+.outerDiv {
+    background: transparent;
+    border: 2px solid #ffffff;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+
+.innerDiv {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.backgroundDiv {
+    background: white;
+    opacity: 0.4;
+    border-radius: 40px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.textDiv {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 200px;
+    margin: auto;
+}
+
+.heading {
+    font-weight: bold;
+    color: #7733ec;
+    font-size: 2em;
+}
+
+@media screen and (min-width: 640px) {
+    .heading {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .heading {
+        font-size: 4em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .heading {
+        font-size: 6em;
+    }
+}
